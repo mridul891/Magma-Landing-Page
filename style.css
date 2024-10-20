@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Jost", sans-serif;
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+}
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+#page1 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#page1 nav {
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0px 30px;
+}
+
+#page1 nav img {
+  width: 9%;
+}
+
+#right-nav button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #0740db;
+  border: 0.2px solid #fff;
+  color: white;
+  font: bolder;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.bottom-page1 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  text-align: left;
+}
+.bottom-page1 > h1 {
+  color: white;
+  font-size: 7.3rem;
+  font-weight: 300;
+  line-height: 1;
+}
+.bottom-page1-inner {
+  display: flex;
+  gap: 10rem;
+  justify-items: space-around;
+  align-items: end;
+}
+.bottom-page1-inner h6 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+}
+
+.bottom-page1-inner button {
+  background-color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 3rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #0740db;
+  text-transform: uppercase;
+}
+
+#page2 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: #0a3cce;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 0px 10rem;
+}
+
+#page2 h2 {
+  font-weight: 400;
+  margin-bottom: 2vw;
+}
+#page2 h1 {
+  width: 80%;
+  font-size: 3vw;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #dadada69;
+}
+#page3 {
+  height: 100vh;
+  width: 100vw;
+  background: yellow;
+  position: relative;
+}
+#page3 > canvas {
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+}
